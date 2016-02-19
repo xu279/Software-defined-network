@@ -1,0 +1,22 @@
+Printing out for Switch1
+Sending 1 REGISTER_REQUEST to controller
+Received 2_inactive_unknownIP_unknownport4_inactive_unknownIP_unknownport6_inactive_unknownIP_unknownport from controller
+Switch 2 is becoming active from being inactive
+Updating Topology Route Table
+1,2,3,4
+1,2,3
+1,2
+Updating Topology Route Table
+1,2,3,6
+1,2,5
+1,2,5,4
+1,2,3
+1,2
+Switch 4 is becoming active from being inactive
+Switch 6 is becoming active from being inactive
+Updating Topology Route Table
+1,6
+1,2,5
+1,4
+1,6,3
+1,2

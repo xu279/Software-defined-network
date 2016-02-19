@@ -1,0 +1,29 @@
+Printing out for Switch5
+Sending 5 REGISTER_REQUEST to controller
+Received 2_active_/127.0.0.1_488624_active_/127.0.0.1_46970 from controller
+Updating Topology Route Table
+5,4
+5,4,3
+5,2
+5,2,1
+Updating Topology Route Table
+5,2,3,6
+5,4
+5,4,3
+5,2
+5,2,1
+Updating Topology Route Table
+5,2,1,6
+5,4
+5,2,1,6,3
+5,2
+5,2,1
+Updating Topology Route Table
+5,2,3,6
+5,4
+5,4,3,6,1
+Updating Topology Route Table
+5,2,3,6
+5,4
+5,4,3
+5,2

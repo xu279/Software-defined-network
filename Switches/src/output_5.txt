@@ -1,0 +1,73 @@
+Printing out for Switch5
+Sending 5 REGISTER_REQUEST to controller
+Received 2_active_/127.0.0.1_416934_active_/127.0.0.1_47039 from controller
+Switch 2 is becoming inactive from being active
+Switch 4 is becoming inactive from being active
+Updating Topology Route Table
+
+Switch 2 is becoming active from being inactive
+Switch 4 is becoming active from being inactive
+Updating Topology Route Table
+5,2,1,6
+5,4
+5,2,1,6,3
+5,2
+5,2,1
+Updating Topology Route Table
+5,2,3,6
+5,4
+5,4,3
+5,2
+Updating Topology Route Table
+5,2,1,6
+5,4
+5,2,1,6,3
+5,2
+5,2,1
+Switch 2 is becoming inactive from being active
+Switch 4 is becoming inactive from being active
+Updating Topology Route Table
+
+Switch 2 is becoming active from being inactive
+Switch 4 is becoming active from being inactive
+Updating Topology Route Table
+5,2,1,6
+5,4
+5,2,3
+5,2
+5,2,1
+Updating Topology Route Table
+5,4,1,6
+5,4
+5,2,3
+5,2
+5,4,1
+Updating Topology Route Table
+5,4,1,6
+5,4
+5,4,1,6,3
+5,2
+5,4,1
+Updating Topology Route Table
+5,2,3,6
+5,4
+5,4,3
+5,2
+Updating Topology Route Table
+5,2,3,6
+5,4
+5,4,3
+5,2
+5,2,1
+Updating Topology Route Table
+5,4,1,6
+5,4
+5,4,1,6,3
+5,2
+5,4,1
+Updating Topology Route Table
+5,2,1,6
+5,4
+5,2,1,6,3
+5,2
+5,2,1

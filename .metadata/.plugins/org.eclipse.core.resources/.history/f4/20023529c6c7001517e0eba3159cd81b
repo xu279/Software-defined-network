@@ -1,0 +1,19 @@
+import java.util.TimerTask;
+import java.util.concurrent.ConcurrentHashMap;
+
+
+public class MyTimerTask extends TimerTask{
+	ConcurrentHashMap <String,String> active_check_table;
+	MyTimerTask(ConcurrentHashMap <String,String> active_check_table) {
+        this.active_check_table = active_check_table;
+    }
+    public void run() {
+      System.out.println("This is Thread " + Thread.currentThread().getName() + "to handle active_check_table");
+      try { 
+          System.out.println("ID "+ID+" has not sent topology_update to controller, and it will be marked as inactive");
+          active_check_table.put(ID.trim(), "inactive");
+      } catch (Exception e) {
+          System.err.println("Exception in socket....");
+      }
+    }
+}

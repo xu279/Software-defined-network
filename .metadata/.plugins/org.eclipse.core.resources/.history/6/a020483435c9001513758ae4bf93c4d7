@@ -1,0 +1,55 @@
+import java.util.Timer;
+import java.util.TimerTask;
+import java.util.concurrent.ConcurrentHashMap;
+
+
+public class MyTimerTask extends TimerTask{
+	ConcurrentHashMap <String,String> active_check_table;
+	int total_switch_nums;
+	MyTimerTask(ConcurrentHashMap <String,String> active_check_table,int total_switch_nums) {
+        this.active_check_table = active_check_table;
+        this.total_switch_nums = total_switch_nums;
+    }
+    public void run() {
+      System.out.println("This is Thread " + Thread.currentThread().getName() + "to handle active_check_table");
+      try { 
+          int i = 1;
+          for(i=1;i<=total_switch_nums;i++)
+          {
+        	  //if active, put as active check, else if active check, mark as inactive
+        	  if(active_check_table.get(String.valueOf(i).trim()).equals("active"))
+        	  {
+        		  active_check_table.put(String.valueOf(i).trim(), "active_check");
+        	  }
+        	  else if(active_check_table.get(String.valueOf(i).trim()).equals("active_check"))
+        	  {
+        		  active_check_table.put(String.valueOf(i).trim(), "inactive");
+        	  }
+        	  //else, inactive just keep same
+          }
+          //check for all inactive switch
+          int break_count = 1;
+          int active_check_idx = 1;
+          for(active_check_idx=1;active_check_idx<=total_switch_nums;active_check_idx++)
+          {
+          	
+          	if(active_table.get(String.valueOf(active_check_idx).trim()).equals("inactive"))
+          	{
+      			break_count++;
+          	}
+          	if(break_count == total_switch_nums)
+          	{
+          		logging_file.close();
+          		breakflag = 1;
+          	}
+          }
+          
+     		this.cancel();
+     		Timer timer;
+    		timer = new Timer("Timer");
+    		timer.schedule(new MyTimerTask(active_check_table,total_switch_nums), 5000);
+      } catch (Exception e) {
+          System.err.println("Exception in socket....");
+      }
+    }
+}

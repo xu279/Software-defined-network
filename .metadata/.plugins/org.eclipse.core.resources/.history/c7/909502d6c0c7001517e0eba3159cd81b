@@ -1,0 +1,19 @@
+import java.util.concurrent.ConcurrentHashMap;
+
+
+public class MyTimerTask {
+	MyTimerTask(ConcurrentHashMap <String,String> active_check_table) {
+        this.client = passedClient;
+    }
+    public void run() {
+      System.out.println("Thread:### " + Thread.currentThread().getName() + " ###");
+      System.out.println("Client inactive for 20 seconds.. Terminating server and closing client..");
+      try {
+          PrintWriter writer = new PrintWriter(client.getOutputStream(), true); 
+          writer.println("bye");
+          System.exit(0); 
+      } catch (Exception e) {
+          System.err.println("Exception in socket....");
+      }
+    }
+}

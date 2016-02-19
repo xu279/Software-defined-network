@@ -1,0 +1,96 @@
+Printing out for Switch6
+Sending 6 REGISTER_REQUEST to controller
+Received 1_active_/127.0.0.1_555373_active_/127.0.0.1_49914 from controller
+Updating Topology Route Table
+6,1,4
+6,3
+6,1,2
+6,1
+Updating Topology Route Table
+6,3,4
+6,3
+6,3,2
+6,1
+Updating Topology Route Table
+6,1,2,5
+6,1,4
+6,3
+6,1,2
+6,1
+Switch 1 is becoming inactive from being active
+Updating Topology Route Table
+6,3,4,5
+6,3,4
+6,3
+6,3,2
+6,3,2,1
+Updating Topology Route Table
+6,3,4,5
+6,3,4
+6,3
+6,3,2
+Updating Topology Route Table
+6,3,4,5
+6,3,4
+6,3
+6,3,2
+6,3,2,1
+Switch 1 is becoming active from being inactive
+Updating Topology Route Table
+6,1,2,5
+6,1,4
+6,3
+6,1,2
+6,1
+Updating Topology Route Table
+6,1,4
+6,3
+6,1,2
+6,1
+Updating Topology Route Table
+6,1,4
+6,3
+6,1
+Updating Topology Route Table
+6,1,2,5
+6,1,4
+6,3
+6,1,2
+6,1
+Switch 1 is becoming inactive from being active
+Updating Topology Route Table
+6,3,4,5
+6,3,4
+6,3
+6,3,2
+6,3,4,1
+Updating Topology Route Table
+6,3,4,5
+6,3,4
+6,3
+6,3,2
+Updating Topology Route Table
+6,3,4,5
+6,3,4
+6,3
+6,3,2
+6,3,2,1
+Updating Topology Route Table
+6,3,4,5
+6,3,4
+6,3
+6,3,2
+6,3,4,1
+Switch 1 is becoming active from being inactive
+Updating Topology Route Table
+6,1,4,5
+6,1,4
+6,3
+6,1,4,5,2
+6,1
+Updating Topology Route Table
+6,1,2,5
+6,1,4
+6,3
+6,1,2
+6,1

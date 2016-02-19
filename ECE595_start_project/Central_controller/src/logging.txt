@@ -1,0 +1,170 @@
+This is the Controller logging file
+Received REGISTER_REQUEST from ID 1
+The Register response sent to 1 is REGISTER_RESPONSE 2_inactive_unknownIP_unknownport 4_inactive_unknownIP_unknownport 6_inactive_unknownIP_unknownport
+Received REGISTER_REQUEST from ID 2
+The Register response sent to 2 is REGISTER_RESPONSE 1_active_/127.0.0.1_54498 3_inactive_unknownIP_unknownport 5_inactive_unknownIP_unknownport
+Received REGISTER_REQUEST from ID 3
+The Register response sent to 3 is REGISTER_RESPONSE 2_active_/127.0.0.1_48862 4_inactive_unknownIP_unknownport 6_inactive_unknownIP_unknownport
+Received REGISTER_REQUEST from ID 4
+The Register response sent to 4 is REGISTER_RESPONSE 1_active_/127.0.0.1_54498 3_active_/127.0.0.1_36488 5_inactive_unknownIP_unknownport
+Received REGISTER_REQUEST from ID 5
+The Register response sent to 5 is REGISTER_RESPONSE 2_active_/127.0.0.1_48862 4_active_/127.0.0.1_46970
+Received REGISTER_REQUEST from ID 6
+The Register response sent to 6 is REGISTER_RESPONSE 1_active_/127.0.0.1_54498 3_active_/127.0.0.1_36488
+The updated table for ID 2 is 
+
+2,1,6
+2,1,4,5
+2,1,4
+2,1,6,3
+2,1
+The updated table for ID 3 is 
+
+3,2,1,6
+3,2,1,4,5
+3,2,1,4
+3,2
+3,2,1
+The updated table for ID 4 is 
+
+4,1,6
+4,3
+4,1,2
+4,1
+The updated table for ID 1 is 
+
+1,2,3,4
+1,2,3
+1,2
+The updated table for ID 5 is 
+
+5,4
+5,4,3
+5,2
+5,2,1
+The updated table for ID 6 is 
+
+6,1,2,5
+6,1,2,5,4
+6,3
+6,1,2
+6,1
+The updated table for ID 2 is 
+
+2,1,6
+2,5
+2,5,4
+2,1,6,3
+2,1
+The updated table for ID 3 is 
+
+3,6
+3,6,1,2,5
+3,6,1,2,5,4
+3,6,1,2
+3,6,1
+The updated table for ID 4 is 
+
+4,1,6
+4,5
+4,1,6,3
+4,5,2
+4,1
+The updated table for ID 1 is 
+
+1,2,3,6
+1,2,5
+1,2,5,4
+1,2,3
+1,2
+The updated table for ID 5 is 
+
+5,2,3,6
+5,4
+5,4,3
+5,2
+5,2,1
+The updated table for ID 1 is 
+
+1,6
+1,2,5
+1,4
+1,6,3
+1,2
+The updated table for ID 5 is 
+
+5,2,1,6
+5,4
+5,2,1,6,3
+5,2
+5,2,1
+The updated table for ID 6 is 
+
+6,1,2,5
+6,1,4
+6,3
+6,1,2
+6,1
+The updated table for ID 3 is 
+
+3,6
+3,6,1,2,5
+3,6,1,4
+3,6,1,2
+3,6,1
+The updated table for ID 2 is 
+
+2,5,4,1,6
+2,5
+2,5,4
+2,5,4,1,6,3
+2,5,4,1
+The updated table for ID 3 is 
+
+3,6
+3,6,1,4,5
+3,6,1,4
+3,6,1,4,5,2
+3,6,1
+The updated table for ID 4 is 
+
+4,3,6
+4,5
+4,3
+4,5,2
+4,3,6,1
+The updated table for ID 5 is 
+
+5,2,3,6
+5,4
+5,4,3,6,1
+The updated table for ID 6 is 
+
+6,3,4,5
+6,3,4
+6,3
+6,3,2
+The updated table for ID 2 is 
+
+2,3,6
+2,5
+2,5,4
+2,3
+The updated table for ID 3 is 
+
+3,6
+3,4,5
+3,4
+3,2
+The updated table for ID 4 is 
+
+4,3,6
+4,5
+4,3
+4,5,2
+The updated table for ID 5 is 
+
+5,2,3,6
+5,4
+5,4,3
+5,2
